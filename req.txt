@@ -1,0 +1,14 @@
+fastapi
+vosk
+openai
+uvicorn
+pydub
+python-multipart
+pydantic
+torch
+soundfile
+transformers
+pandas
+scikit-learn
+xgboost
+matplotlib

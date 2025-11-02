@@ -1,0 +1,11 @@
+POST http://localhost:8000/predict HTTP/1.1
+Content-Type: application/json
+
+{
+    "water_level": 32,
+    "Temperature": 56,
+    "Humidity": 0,
+    "N": 255,
+    "P": 255,
+    "K": 255
+}

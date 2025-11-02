@@ -20,14 +20,14 @@ from pydub import AudioSegment
 # 1️⃣ Set OpenRouter API Key
 # -------------------------
 client = OpenAI(
-    api_key="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",
+    api_key="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",
     base_url="https://openrouter.ai/api/v1"
 )
 
 # -------------------------
 # 2️⃣ Load Vosk ASR Model
 # -------------------------
-vosk_model_path = "vosk_model/vosk-model"  # adjust to your local folder
+vosk_model_path = "vosk_model/vosk-model/vosk-model"  # adjust to your local folder
 if not os.path.exists(vosk_model_path):
     raise FileNotFoundError("Vosk model folder not found at " + vosk_model_path)
 model = Model(vosk_model_path)
